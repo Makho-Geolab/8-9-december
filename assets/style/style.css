@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.navigation{
+	display: inline-block;
+	float: right;
+}
+
+.header{
+	display: inline-block;
+	float: left;
+	color: white;
+}
+
+.navigation ul li{
+	display: inline-block;
+	background: lightblue;
+	padding: 5px 10px;
+	border: 1px solid black;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+.navigation ul li a{
+	color: red;
+	text-transform: capitalize;
+	font-family: "BPG Nino Mtavruli", sans-serif;
+	font-weight: bold;
+}
+
+/*.navigation:before{
+	content: "skhavifhdvuslg";
+}
+*/
+header:after{
+	content: "";
+	clear: both;
+	display: inline-block;
+	height: 20px;
+	width: 2px;
+}
+
+header{
+	background: blue;
+	padding: 20px 0;
+}
+
+.clear-fix{
+	clear: both;
+}
+
+main{
+	background: grey;
+}
+
+aside{
+	display: inline-block;
+	padding: 20px 20px 0 20px;
+	width: 20%;
+	vertical-align: top;
+}
+
+.aside-nav{
+	width: 100%;
+}
+
+.aside-nav ul li{
+	margin-top:20px;
+	background-color: blue;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.aside-nav ul li a{
+	color: white;
+	text-transform: capitalize;	
+}
+
+.aside-nav ul li:hover{
+	background-color: green; 
+}
+
+main{
+	display: inline-block;
+	width: 76%;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+/*.aside-nav ul li a:visited{
+	background: black;
+}*/
+
+.blog-header{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: yellow;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.blog{
+	width: 96%;
+	margin: 0 auto;
+	margin: 50px 0;
+	background: white;
+}
+
+.blog img{
+	display: inline-block;
+	width: 150px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.blog p{
+	display: inline-block;
+	width: 700px;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+.google{
+	text-transform: uppercase;
+	color: green;
+}
+
+footer{
+	background-color: grey;
+	padding: 20px 0;
+	margin-top: 20px;
+}
+
+footer .copy{
+	float: left;
+}
+
+footer .author{
+	float: right;
+}
+
+.scroll-up{
+	position: fixed;
+	width: 25px;
+	height: 25px;
+	bottom: 150px;
+	right: 50px;
+}
+
+.scroll-up img{
+	height: 100%;
+}
+
+.position-absolute{
+	position: absolute;
+	width: 150px;
+	height: 200px;
+    left: 20px;
+    top: 550px;
+}
+
+.position-absolute img{
+	width: 100%;
+}
+
+/*.position-relative{
+	background: black;
+	position: relative;
+	width: 500px;
+	height: 200px;
+}
+
+.position-relative img{
+	height: 100%;
+	position: absolute;
+	left: 20px;
+	top: -200px;
+}*/
+
+
+/*.scroll-up{
+	position: fixed;
+	width: 20px;
+	height: 20px;
+	right: 20px;
+	bottom: 150px;
+}*/
+
+.position-relative{
+	position: relative;
+	width: 500px;
+	height: 200px;
+	background: black;
+}
+
+.position-relative img{
+	position: absolute;
+	height: 100%;
+	left: 20px;
+	top: -200px;
+}
+
+.transform{
+	transform: translateX(-150px);
+    /*transform: translate(150px,150px);*/
+}
+
+.rotate{
+	transform: rotateX(180deg);
+}
+
